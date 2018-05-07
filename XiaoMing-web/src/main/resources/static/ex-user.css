@@ -1,0 +1,190 @@
+.mui-content div, .mui-content section, .mui-content p, .mui-content span, .mui-content a, .mui-content img, .mui-content dl, .mui-content dd, .mui-content dt, .mui-content ul, .mui-content li, .mui-content ol,.mui-content a{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    outline: none
+}
+
+.mui-content input, .mui-content label, .mui-content textarea,.mui-content button{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    outline: none
+}
+
+
+.ex-user-login-content .login-input-group .row.hava-msg-row button.disabled, .ex-user-login-content .login-input-group .row.hava-msg-row button.active, .ex-user-login-content .login-input-group .row.hava-msg-row a:active,  .ex-user-login-content .login-input-group .row.hava-msg-row a:disabled{
+    color: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.3)
+}
+
+
+.ex-user-login-content {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url(https://pic.qianmi.com/ejz/ejzc_app2.0/img/login-bg.jpg);;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.ex-user-login-content .top a, .ex-user-login-content .top h1{
+    color: #fff
+}
+
+.ex-user-login-content .top{
+    position: relative;
+    width: 100%;
+    height: 1rem
+}
+
+.ex-user-login-content .top a{
+    padding: 12px 10px 10px
+}
+
+.ex-user-login-content .top a:active {
+    color: rgba(255, 255, 255, 0.3)
+}
+
+.ex-user-login-content .top h1{
+    position: absolute;
+    width: auto;
+    left: 40px;
+    right: 40px;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block
+}
+
+.ex-user-login-content figure{
+    position: relative;
+    color: #fff;
+    text-align: center;
+    margin: 1rem 0 0
+}
+
+.ex-user-login-content figure p{
+    font-size: .36rem
+}
+
+.ex-user-login-content figure img{
+    display: block;
+    width: 1.8rem;
+    height: 1.8rem;
+    margin: auto auto .37rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear
+}
+
+.ex-user-login-content .login-input-group {
+    position: relative;
+    width: auto;
+    white-space: nowrap;
+    -webkit-transition: transform 0.3s cubic-bezier(0, 0, 0.2, 1);
+    -moz-transition: transform 0.3s cubic-bezier(0, 0, 0.2, 1);
+    -ms-transition: transform 0.3s cubic-bezier(0, 0, 0.2, 1);
+    transition: transform 0.3s cubic-bezier(0, 0, 0.2, 1);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0)
+}
+
+.ex-user-login-content .login-input-group .row{
+    font-size: .28rem;
+    background-color: transparent;
+    border-bottom: 1px solid #fff
+}
+
+.ex-user-login-content .login-input-group .row .hava-msg-row{
+    position: relative
+}
+
+.ex-user-login-content .login-input-group .row .hava-msg-row a,.ex-user-login-content .login-input-group .row .hava-msg-row button{
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: .16rem;
+    text-align: center;
+    padding: 5px 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px
+}
+
+
+.ex-user-login-content .login-input-group input{
+    height: 1rem;
+    padding: .1rem 2px 0
+}
+
+.ex-user-login-content .login-input-group input, .ex-user-login-content .login-input-group button{
+    font-size: .28rem;
+    margin-bottom: 0;
+    color: #fff;
+    background-color: transparent;
+    border: 0
+}
+
+.ex-user-login-content button.ex-login-btn{
+    width: 100%;
+    font-size: .32rem;
+    line-height: 2;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: .8rem
+}
+
+.ex-user-login-content button.ex-login-btn + a{
+    display: block;
+    font-size: .24rem;
+    color: #ccc;
+    text-align: center;
+    margin-top: .3rem
+}
+
+.ex-user-login-content button.ex-login-btn + a:active{
+    color: rgba(255, 255, 255, 0.3)
+}
+
+.ex-user-login-content p.bottom{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: .5rem;
+    font-size: .24rem;
+    color: #999;
+    text-align: center
+}
+
+.ex-user-login-content p.bottom a{
+    color: #999;
+    text-decoration: underline
+}
+
+.ex-user-login-content p.bottom a:active{
+    color: rgba(255, 255, 255, 0.2)
+}
+
+.ex-user-login-content .pwd-group, .ex-user-login-content .validate-group{
+    display: inline-block;
+    width: 100%;
+    padding: .4rem 1rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}

@@ -1,0 +1,71 @@
+.xm-tip-modal{
+    display: none;
+    width: 80%;
+    max-width: 10rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin: auto;
+    z-index: 9999;
+    background-color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: transform 0.25s linear;
+    -moz-transition: transform 0.25s linear;
+    -ms-transition: transform 0.25s linear;
+    transition: transform 0.25s linear;
+    -webkit-transform: scale3d(0, 0, 0) translateY(-50%);
+    -moz-transform: scale3d(0, 0, 0) translateY(-50%);
+    -ms-transform: scale3d(0, 0, 0) translateY(-50%);
+    transform: scale3d(0, 0, 0) translateY(-50%)
+}
+
+.xm-tip-modal .header{
+    font-size: .32rem;
+    text-align: center;
+    padding: .3rem 0;
+    line-height: 1.5;
+    color: #fff;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+    background: -webkit-linear-gradient(top, #00c4ff, #00b1e6);
+    background: -o-linear-gradient(top, #00c4ff, #00b1e6);
+    background: -moz-linear-gradient(top, #00c4ff, #00b1e6);
+    background: linear-gradient(top, #00c4ff, #00b1e6)
+}
+
+.xm-tip-modal .header i {
+    font-size: 20px;
+    margin-right: .1rem;
+    vertical-align: middle
+}
+
+.xm-tip-modal .rule-title {
+    font-size: .32rem;
+    font-weight: bold;
+    text-align: center;
+    color: #ff4b1e;
+    border-bottom: 1px dashed #ff4b1e;
+    margin: auto .4rem;
+    padding: .4rem 0
+}
+
+.jzc-paydetail{
+    width: 90%;
+    margin: .6rem auto;
+    background-color: #fff;
+    -webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    border-radius: 0.1rem
+}
+
+.jzc-paydetail .top{
+    height: 2.4rem;
+}
+
+.jzc-paydetail p{
+    padding: 0.2rem 0.5rem;
+}

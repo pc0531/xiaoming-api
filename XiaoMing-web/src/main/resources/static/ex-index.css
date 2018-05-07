@@ -1,0 +1,200 @@
+.ex-index-item-show-list{
+    margin-top: .2rem;
+}
+
+.ex-index-item-show-list .ex-index-list-top{
+    background: white;
+    margin-top: 0.1rem;
+    margin-bottom: 0.03rem;
+}
+
+.ex-index-item-show-list .ex-index-list-top p{
+    padding: 0.1rem 0.5rem;
+    font-size: 0.3rem;
+    color: #8f8f94;
+    text-align: center;
+}
+
+.ex-index-item-show ex-index-mrl0{
+    margin-top: -5px;
+}
+
+
+.ex-index-item-show-list .ex-index-mrl0 {
+    margin:0;
+}
+
+.ex-index-item-show{
+    margin: .2rem
+}
+
+.ex-index-item-show .ex-index-item{
+    background-color: #fff;
+    height:3rem;
+}
+
+.ex-index-item-show .ex-index-item img{
+    border-radius: 4%;
+    width: 3rem;
+    height: 3rem;
+    float: left;
+    padding: 0.3rem;
+}
+
+.ex-index-item-show .ex-index-item .ex-item-li-right{
+    float: left;
+    margin-top: 0.3rem;
+}
+
+.ex-index-item-show .ex-index-item .ex-item-li-right .ex-item-li-right-title{
+    font-size: 0.45rem;
+    margin-bottom: 0.1rem;
+}
+
+.ex-index-item-show .ex-index-item .ex-item-li-right .ex-item-li-right-description{
+    font-size: 0.35rem;
+    margin-bottom: 0.1rem;
+    color: rgb(107,107,107);
+}
+
+.ex-index-item-show .ex-index-item .ex-item-li-right .ex-item-li-right-price >span:first-child{
+     color: rgb(225,102,0);
+     font-size: 0.3rem;
+    margin-right: 0.1rem;
+ }
+
+.ex-index-item-show .ex-index-item .ex-item-li-right .ex-item-li-right-price >span{
+    color: rgb(107,107,107);
+    font-size: 0.2rem;
+}
+
+
+
+.ex-index-item-show li{
+    height: 214px;
+}
+
+.ex-index-item-btn-block {
+    display: block
+}
+
+.ex-index-item-show .mui-sd-handle {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 2.6rem;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -webkit-transition: transform 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out;
+    -ms-transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out
+}
+.ex-index-item-show .mui-sd-handle .ex-item-li-top{
+    height: 56px;
+    padding-left: 15px;
+    padding-top: 16px;
+
+}
+
+
+.ex-index-item-show .mui-sd-handle .ex-item-li-top img{
+   width:40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+
+.ex-index-item-show .mui-sd-handle .ex-item-li-top p{
+    font-size:13px;
+    margin-left: 55px;
+}
+
+/*.ex-index-item-show .mui-sd-handle .ex-item-li{*/
+/*}*/
+
+/*.ex-index-item-show .mui-sd-handle .ex-item-li img{*/
+    /*border-radius: 4%;*/
+     /*width: 3rem;*/
+    /*height: 3rem;*/
+    /*float: left;*/
+    /*padding: 0.3rem;*/
+ /*}*/
+
+.ex-index-item-show .mui-sd-handle .ex-item-li-right{
+    float: left;
+    margin-top: 0.3rem;
+}
+
+.ex-index-item-show .mui-sd-handle .ex-item-li-right p{
+    font-weight: 900;
+    font-family: cursive;
+    font-size:16px;
+    margin-top: -12px;
+}
+
+.ex-index-item-show .mui-sd-handle .ex-item-li-bottom{
+    padding-top: 6px;
+    padding-left: 15px;
+}
+
+.ex-index-item-show .mui-sd-handle .ex-item-li-bottom p{
+    font-size:16px;
+    color: red;
+}
+
+
+.ex-index-item-show .mui-sd-handle .ex-index-item-userPhoto{
+    marginLeft:5px;
+}
+
+.ex-index-item-show .mui-sd-handle .ex-index-item-userPhoto img{
+    width:30px;
+}
+
+.xm-index-4{
+    background: white;
+
+}
+
+.xm-index-4 .content{
+    padding: 0.3rem 0.2rem;
+    height: 4rem;
+
+}
+
+.xm-index-4 .up{
+    height: 50%;
+}
+
+.xm-index-4 .upcontent{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+.xm-index-4 .upcontent p{
+    background: #eee;
+    height: 90%;
+    width: 100%;
+}
+
+.xm-index-4 .down{
+    height: 50%;
+}
+
+.xm-index-4 .downcontent{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+.xm-index-4 .downcontent p{
+    background: #eee;
+    height: 90%;
+    width: 100%;
+}
+
